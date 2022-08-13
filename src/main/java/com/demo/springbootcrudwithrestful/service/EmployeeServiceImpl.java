@@ -3,10 +3,12 @@ package com.demo.springbootcrudwithrestful.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.demo.springbootcrudwithrestful.dao.EmployeeDaoI;
 import com.demo.springbootcrudwithrestful.model.Employee;
 
+@Service
 public class EmployeeServiceImpl implements EmployeeServiceI{
 	
 	@Autowired
