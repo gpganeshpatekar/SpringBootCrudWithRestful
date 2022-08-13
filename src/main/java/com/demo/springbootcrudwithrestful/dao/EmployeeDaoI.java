@@ -5,6 +5,7 @@ import java.util.List;
 import com.demo.springbootcrudwithrestful.model.Employee;
 
 public interface EmployeeDaoI {
+	
 	public Employee employeeLogin(Employee employee);
 	public Employee addEmployee(Employee employee);
 	public List<Employee> addMultipleEmployee(List<Employee> employee);
